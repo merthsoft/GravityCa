@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Merthsoft.GravityCa.DesktopGl\Merthsoft.GravityCa.DesktopGl.csproj" />
+  <Project Path="Merthsoft.GravityCa.GameLibrary\Merthsoft.GravityCa.GameLibrary.csproj" />
+  <Project Path="Merthsoft.GravityCa.WindowsDx\Merthsoft.GravityCa.WindowsDx.csproj" />
+  <Project Path="Merthsoft.GravityCa\Merthsoft.GravityCa.csproj" />
+</Solution>
