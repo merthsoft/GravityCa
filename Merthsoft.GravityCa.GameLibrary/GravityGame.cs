@@ -98,8 +98,9 @@ public class GravityGame : Game
 
         var assembly = Assembly.GetAssembly(typeof(GravityMap))!;
         var fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
-
-        version = $"{fileVersionInfo.ProductName} - v{fileVersionInfo.ProductVersion?.Split('+')[0] ?? "??"}";
+        var verParts = fileVersionInfo.ProductVersion!.Split('-');
+        var ver = verParts[0] + '-' + verParts[1];
+        version = $"GravityCA - v{ver}";
         Window.Title = version;
 
         base.Initialize();
